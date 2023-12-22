@@ -1,0 +1,45 @@
+database : relationstore_db
+nb : semua gunakan huruf kecil
+
+users :
+- id_user
+- username
+- password
+- email
+- reg_date
+
+produk
+- id_item
+- nama_produk
+- tipe_item
+- stok
+- harga
+- image
+- status(tersedia, tidak tersedia)
+
+pembelian :
+- id_pembelian
+- username
+- id_item
+- total_harga
+- tanggal_pembelian
+- status(berhasil, gagal)
+
+keranjang :
+- id_keranjang
+- username
+- image
+- nama_produk
+- harga
+
+pembayaran :
+- id_pembayaran
+- id_pembelian
+- metode_pembayaran
+- total_harga
+- status(terkonfirmasi, belum terkonfirmasi)
+
+pengunjung :
+- id_pengunjung
+- username
+- tanggal_login

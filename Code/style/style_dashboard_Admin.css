@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,900;1,700&family=Trade+Winds&display=swap');
+
+*, body, html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #edf2fe;
+}
+
+/* LEFT SIDE ATAU NAV */
+
+.container-ap {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.brand-img {
+    width: 9.5rem;
+}
+
+.page-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.page-name h1 {
+    font-size: 2.6rem;
+    color: rgb(255, 255, 255);
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    width: 21.5rem;
+    height: 100vh;
+    background-color: #284f86;
+    box-shadow: 0 0 3px;
+    padding: 1.5rem;
+    top: 0px;   
+}
+
+.ls-content-dash {
+    display: flex;
+    flex-direction: column;
+    line-height: 4.5;
+    justify-content: center;
+    align-items: left;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: 1.45rem;
+}
+
+.ls-content-dash a {
+    font-size: 1.1rem;
+    font-weight: 550;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    transition: all 0.1s ease-out 0.1s;
+    -webkit-transition: all 0.1s ease-out 0.1s;
+    -moz-transition: all 0.1s ease-out 0.1s;
+    -ms-transition: all 0.1s ease-out 0.1s;
+    -o-transition: all 0.1s ease-out 0.1s;
+}
+
+.ls-content-dash a:hover {
+    background-color: rgba(52, 52, 52, 0.211);
+    padding: 0.7rem;
+    border-radius: 15px 5px 15px 5px;
+}
+
+.ls-content-dash li {
+    list-style-type: none;
+}
+
+.left-icon {
+    margin-right: 1rem;
+}
+
+.ls-content {
+    display: flex;
+    flex-direction: column;
+    line-height: 4.5;
+    justify-content: center;
+    align-items: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.ls-content li {
+    list-style-type: none;
+}
+
+.ls-content-li a {
+    transition: all 0.1s ease-out 0.1s;
+}
+
+.ls-content-li a:hover {
+    background-color: rgba(52, 52, 52, 0.211);
+    padding: 0.7rem;
+    border-radius: 15px 5px 15px 5px;
+}
+
+.ls-content-wrap {
+    color: white;
+    margin-top: 20px;
+}
+
+.ls-content-wrap h2 {
+    font-size: 1.28rem;
+}
+
+.ls-content a {
+    font-size: 1.1rem;
+    font-weight: 550;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.left-icon {
+    opacity: 0.3;
+}
+
+/* RIGHT SIDE */
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0 2.5rem;
+}
+
+.rs-content-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+.section-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: left;
+    height: 4.5rem;
+    align-items: left;
+}
+
+.section-title h2 {
+    font-size: 2.2rem;
+}
+
+.content-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 2.5rem;
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
+    min-height: 8vh
+}
+
+.rs-content-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    width: 300px;
+    height: 100px;
+    background-color: #edf5ff;
+    box-shadow: 0 0 4.5px rgba(0, 0, 0, 0.515);
+    line-height: 1.7;
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    border-left: 5px solid #5adeff;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.rs-content-box h3 {
+    font-size: 1rem;
+    color: #5adeff;
+}
+
+.rs-content-box p {
+    font-size: 1.2rem;
+}
+
+.fa-eye {
+    opacity: 0.4;
+}
+
+/* UPPER BAR(RIGHT SIDE) */
+
+.upper-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.455);
+}
+
+.admin-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.admin-icon {
+    margin-left: 0.4rem;
+}
